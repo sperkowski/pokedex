@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		075E4F7E1D844E1A00B6C2D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075E4F7D1D844E1A00B6C2D0 /* AppDelegate.swift */; };
 		075E4F801D844E1A00B6C2D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075E4F7F1D844E1A00B6C2D0 /* ViewController.swift */; };
-		075E4F831D844E1A00B6C2D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075E4F811D844E1A00B6C2D0 /* Main.storyboard */; };
+		075E4F831D844E1A00B6C2D0 /*  .storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075E4F811D844E1A00B6C2D0 /*  .storyboard */; };
 		075E4F851D844E1A00B6C2D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075E4F841D844E1A00B6C2D0 /* Assets.xcassets */; };
 		075E4F881D844E1A00B6C2D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075E4F861D844E1A00B6C2D0 /* LaunchScreen.storyboard */; };
+		075E4F901D84C13700B6C2D0 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 075E4F8F1D84C13700B6C2D0 /* pokemon.csv */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		075E4F7A1D844E1A00B6C2D0 /* pokedex-working.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pokedex-working.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		075E4F7D1D844E1A00B6C2D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		075E4F7F1D844E1A00B6C2D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		075E4F821D844E1A00B6C2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		075E4F821D844E1A00B6C2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/ .storyboard"; sourceTree = "<group>"; };
 		075E4F841D844E1A00B6C2D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		075E4F871D844E1A00B6C2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		075E4F891D844E1A00B6C2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		075E4F8F1D84C13700B6C2D0 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 			children = (
 				075E4F7D1D844E1A00B6C2D0 /* AppDelegate.swift */,
 				075E4F7F1D844E1A00B6C2D0 /* ViewController.swift */,
-				075E4F811D844E1A00B6C2D0 /* Main.storyboard */,
+				075E4F811D844E1A00B6C2D0 /*  .storyboard */,
 				075E4F841D844E1A00B6C2D0 /* Assets.xcassets */,
 				075E4F861D844E1A00B6C2D0 /* LaunchScreen.storyboard */,
 				075E4F891D844E1A00B6C2D0 /* Info.plist */,
+				075E4F8F1D84C13700B6C2D0 /* pokemon.csv */,
 			);
 			path = "pokedex-working";
 			sourceTree = "<group>";
@@ -124,7 +127,8 @@
 			files = (
 				075E4F881D844E1A00B6C2D0 /* LaunchScreen.storyboard in Resources */,
 				075E4F851D844E1A00B6C2D0 /* Assets.xcassets in Resources */,
-				075E4F831D844E1A00B6C2D0 /* Main.storyboard in Resources */,
+				075E4F901D84C13700B6C2D0 /* pokemon.csv in Resources */,
+				075E4F831D844E1A00B6C2D0 /*  .storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,12 +147,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		075E4F811D844E1A00B6C2D0 /* Main.storyboard */ = {
+		075E4F811D844E1A00B6C2D0 /*  .storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				075E4F821D844E1A00B6C2D0 /* Base */,
 			);
-			name = Main.storyboard;
+			name = " .storyboard";
 			sourceTree = "<group>";
 		};
 		075E4F861D844E1A00B6C2D0 /* LaunchScreen.storyboard */ = {
